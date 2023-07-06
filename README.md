@@ -1,3 +1,3 @@
-# Curriculum Vitae Maximilian Kürschner
+# Curriculum Vitae Michael Darisse
 
-You can find the final pdf [here](https://github.com/programonaut/cv/blob/main/build-files/cv-maximilian-kuerschner.pdf).
+You can find the final pdf [here](https://github.com/michaeldarisse/mdarisse_cv/blob/main/mdarisse_cv.pdf).
