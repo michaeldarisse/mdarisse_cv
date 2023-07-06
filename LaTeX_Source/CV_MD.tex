@@ -1,0 +1,194 @@
+% --- LaTeX CV Template - S. Venkatraman ---
+
+% Set document class and font size
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Package imports
+\usepackage{setspace, longtable, graphicx, hyphenat, hyperref, fancyhdr, ifthen, everypage, enumitem, amsmath, setspace, fontawesome, multirow}
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=1in, right=1in, bottom=0.7in, top=0.7in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.15}
+
+% --- Page formatting ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+% Set font to Libertine, including math support
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% --- Document starts here ---
+
+\begin{document}
+
+% Name and date of last update to this document
+\begin{center}\noindent{\Huge{Michael J. Darisse}} \end{center} 
+
+% --- Contact information and other items ---
+\begin{center}
+% Line 1: Email, website, citizenship
+\begin{tabular}{lll}
+\faEnvelopeO \hspace{2pt}  mdarisse@fsu.edu   & \faLink \hspace{2pt}  \href{https://sites.google.com/view/michaeldarisse}{sites.google.com/view/michaeldarisse} & \faGlobe \hspace{2pt} Citizenship:  U.S. \\
+
+% Line 2: Phone number, Address
+\faPhone \hspace{2pt} +1 (978) 590 8562 & \faMapMarker \multicolumn{1}{l}{207 Bellamy Building | Tallahassee, FL 32312}  % change to 2 if longer
+\end{tabular}
+\end{center}
+%\hfill{\it\footnotesize Last updated \today}
+% --- Start the two-column table storing the main content ---
+
+% Set spacing between columns
+\setlength{\tabcolsep}{8pt}
+
+% Set the width of each column
+\begin{longtable}{p{0.1in}p{5.9in}}
+
+% --- Section: Employment ---
+%\color{Blue}{EMPLOYMENT} \\
+%& Post-doctoral Associate,  Charles H. Dyson School of Applied Economics  \hfill 2022 -- 2023 \\
+
+\color{Maroon}{EDUCATION} \\
+& Florida State University, PhD in Economics  \hfill 2022 -- Present \\
+%& \hspace{10pt} \textit{Committee members:} \\
+%& \hspace{20pt} \textit{John Hoddinott (co-chair), Kaushik Basu (co-chair), Mike Lovenheim} \\
+& University of New Hampshire, MA in Economics \hfill 2019 \\
+& University of New Hampshire, BA in Economics  \hfill 2016 \\ & \\
+
+
+% --- Section: Research interests ---
+\multicolumn{2}{l}{\nohyphens{\color{Maroon}{RESEARCH INTERESTS}}} \\
+& Economics of Education, Labor Economics, Experimental Economics, Economic History \\
+& \\
+
+
+% --- Uncomment the next few lines if you want to include some courses ---
+%& \textbf{Selected coursework}
+%\begin{itemize}[noitemsep,leftmargin=*]
+%\item \underline{Relevant subject 1}: Course 1, Course 2, Course 3, Course 4
+%\item \underline{Relevant subject 2}: Course 1, Course 2, Course 3, Course 4
+%\end{itemize} \\
+
+
+% --- Section: Publications ---
+\multicolumn{2}{l}{\nohyphens{\color{Maroon}{PUBLICATIONS}}}\\
+
+& Lars Vilhuber, Hyuk Harry Son, Meredith Welch, David N. Wasser \& Michael Darisse. (2022). ``\href{https://www.tandfonline.com/doi/full/10.1080/26939169.2022.2074582}{Teaching for large-scale Reproducibility Verification.}'' \textit{Journal of Statistics and Data Science Education}. \\ & \\
+
+% --- Section: Work in Progress ---
+%\multicolumn{2}{l}{\color{Blue}{WORK IN PROGRESS}} \\
+%& ``The Effect of Microinsurance on Child Work and Schooling: Evidence from northern Kenya and southern Ethiopia'' \\
+%& \\
+
+
+
+% --- Section: Research experience ---
+
+\multicolumn{2}{l}{\color{Maroon}{RESEARCH EXPERIENCE}}\\
+
+& \textit{Research Aide \& Assistant Data Editor}, Cornell University \hfill August 2020 - July 2022 \\
+& Lars Vilhuber; Reproducibility Evaluation of AEA Journals \\ 
+& \\
+
+& \textit{Research Assistant}, Texas A\&M University \hfill January 2021 - July 2022 \\
+& Ragan Petrie and Marco Castillo;  Data preparation and analysis for school value-added in Victoria, Australia project \\ & \\
+%College Station, TX (Remote)
+
+& \textit{Research Assistant}, University of Virginia \hfill January 2020 - August 2020 \\
+& Vivian C. Wong and Peter M. Steiner; Empirical Evaluations of Non-Experimental Methods in Field Settings project \\ & \\
+%Charlottesville, VA (Remote)
+
+& \textit{Research Assistant}, University of New Hampshire \hfill January 2019 - June 2019 \\
+& Stephan Shipe; Training of machine learning algorithm for Fee Tables and Investor Comprehension of Fees project \\ & \\
+% Durham, NH
+
+% --- Section: Teaching experience ---
+
+\multicolumn{2}{l}{\color{Maroon}{TEACHING EXPERIENCE}} \\
+& \textit{Teaching Assistant}, Florida State University \\
+& \hspace{10pt} Introduction to Econometrics  \hfill Summer 2023\\
+& \hspace{10pt} Intermediate Microeconomic Theory  \hfill Spring 2023\\ & \\
+%& Introductory Macroeconomics (Terence Alexander, Spring 2019; Jennifer Wissink, Fall 2019)\\
+%& \\
+
+% --- Section: Industry experience ---
+
+\multicolumn{2}{l}{\color{Maroon}{INDUSTRY EXPERIENCE}}\\
+
+& New York City Economic Development Corporation \hfill February 2020 - May 2020 \\
+& {\sl Intern -- Economic Research \& Policy} \hfill New York, NY\\ & \\
+
+\pagebreak
+
+& Commonwealth of Massachusetts \hfill June 2018 - August 2018 \\
+& {\sl Legislative Intern -- State Representative Linda Dean Campbell} \hfill Boston, MA\\ & \\
+
+& Brown Brothers Harriman \& Co. \hfill July 2017 - May 2018 \\
+& {\sl Operations Intermediate Specialist – Foreign Exchange Services} \hfill New York, NY \\ & \\
+
+& Brown Brothers Harriman \& Co. \hfill September 2016 - June 2017 \\
+& {\sl Operations Specialist – Reconciliations and Analysis} \hfill Boston, MA \\ & \\
+
+
+% --- Section: Talks and tutorials ---
+{\color{Maroon}{PRESENTATIONS}} \\
+
+& University of New Hampshire Graduate Research Conference \hfill May 2019 \\
+& \hspace{10pt} “Teacher Job Satisfaction and Student Achievement in New York City” (MA Thesis) \\ & \\
+%& \hspace{10pt} This paper seeks to investigate the relationship between teacher satisfaction and student achievement at primary and secondary school levels in the New York City school system. Using data from the NYC Department of Education, I estimate numerous models in an attempt to break any possible endogeneity bias and arrive at the most accurate estimates possible. I find that teacher satisfaction has a statistically significant and positive effect on student achievement. Despite a weak identifier in my instrumental variable models, which prevents any causal inference, I find an associative relationship between teacher satisfaction and student achievement that may be useful to policymakers in their efforts to improve student outcomes. \\ & \\
+
+& University of New Hampshire Undergraduate Research Conference \hfill April 2016 \\
+& \hspace{10pt} “New Hampshire and the Regional Greenhouse Gas Initiative: Cap and Trade vs. Carbon Tax” \\
+& \hspace{10pt} (BA Thesis) \\ & \\
+
+& University of New Hampshire Undergraduate Research Conference \hfill April 2015 \\
+& \hspace{10pt} “The International Brotherhood of Teamsters” \\ & \\
+
+% --- Section: Honors and Scholarships) ---
+
+%\multicolumn{2}{l}{{\color{Maroon}{AWARDS}}} \\
+%& Dean's Scholarship (University of New Hampshire)   \hfill Fall %2018 - Spring 2019 \\ & \\
+
+% --- Section: Service and outreach ---
+
+%\multicolumn{2}{l}{\color{Blue}{OTHER EXPERIENCES}} \\
+%&	Cornell Economics Graduate Mentorship Program, {\sl Mentor} \hfill  Spring 2020 \\
+%\color{Blue}{}
+%&	STAARS Fellowship Co-mentor \hfill Fall 2019 -- Spring 2020 \\
+%& 	Economics that Matters, {\sl Editor}  \hfill Jan 2019 -- Present \\
+%& \\
+
+% --- Section: Various skills (programming, software, languages, etc.) ---
+
+{\color{Maroon}{SKILLS}} \\
+& \textit{Programming:} \hspace{10pt} Stata, R \\
+& \textit{Other:} \hspace{45pt} Docker, Git, LaTeX, Unix Command Line \\ & \\
+
+%\multicolumn{2}{l}{{\color{Maroon}{SKILLS}}}\\
+%& \begin{tabular}{ll}
+%     \textbf{Programming} & \textbf{Other}  \\
+%     STATA, R & Docker, Git, LaTeX, Unix Command Line
+%\end{tabular}\\
+%&  \\
+
+\multicolumn{2}{l}{{\color{Maroon}{REFERENCES}}} \\
+& Upon request \\ & \\
+
+% --- End of CV! ---
+
+\end{longtable}
+
+\vfill 
+\emph{Last updated {\today}.} \\
+
+
+\end{document}
