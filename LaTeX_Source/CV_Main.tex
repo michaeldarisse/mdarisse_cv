@@ -1,0 +1,202 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Michael J. Darisse}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\def\footerlink{http://jblevins.org/projects/cv-template/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+%\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  Florida State University \\
+  291B Bellamy Building \\
+  Tallahassee, FL 32312 \\
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email: & \href{mailto:mdarisse@fsu.edu}{\tt mdarisse@fsu.edu} \\
+    Website: & \href{http://michaeldarisse.github.io/}{\tt michaeldarisse.github.io} \\
+    Citizenship: & U.S. \\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Education}
+
+\begin{itemize}
+  \item Florida State University, PhD in Economics  \hfill 2022 -- Present 
+%& \hspace{10pt} \textit{Committee members:} \\
+%& \hspace{20pt} \textit{Name 1 (co-chair), Name 2 (co-chair), Name 3} \\
+  \item University of New Hampshire, MA in Economics \hfill 2019 
+  \item University of New Hampshire, BA in Economics  \hfill 2016 
+\end{itemize}
+
+
+
+\section*{Research Interests}
+
+\begin{itemize}
+    \item Economics of Education, Labor Economics, Experimental Economics
+\end{itemize}
+
+
+\section*{Publications}
+
+\begin{itemize}
+    \item Lars Vilhuber, Hyuk Harry Son, Meredith Welch, David N. Wasser \& Michael Darisse. (2022). ``\href{https://www.tandfonline.com/doi/full/10.1080/26939169.2022.2074582}{Teaching for large-scale Reproducibility Verification.}'' \textit{Journal of Statistics and Data Science Education}.
+\end{itemize}
+
+\section*{Research Experience}
+
+\begin{itemize}
+    \item \textit{Research Aide \& Assistant Data Editor}, Cornell University \hfill August 2020 - July 2022 \\
+    Lars Vilhuber; Reproducibility Evaluation of AEA Journals 
+
+    \item \textit{Research Assistant}, Texas A\&M University \hfill January 2021 - July 2022 \\
+    Ragan Petrie and Marco Castillo;  Data preparation and analysis for school value-added in Victoria, Australia project
+
+    \item \textit{Research Assistant}, University of Virginia \hfill January 2020 - August 2020 \\
+    Vivian C. Wong and Peter M. Steiner; Empirical Evaluations of Non-Experimental Methods in Field Settings project
+
+    \item \textit{Research Assistant}, University of New Hampshire \hfill January 2019 - June 2019 \\
+    Stephan Shipe; Training of machine learning algorithm for Fee Tables and Investor Comprehension of Fees project
+
+\end{itemize}
+
+\section*{Teaching Experience}
+
+\begin{itemize}
+
+    \item \textit{Teaching Assistant}, Florida State University
+    
+    \hspace{10pt} Econometrics I (PhD Level) \hfill Fall 2023
+    
+    \hspace{10pt} Introduction to Econometrics  \hfill Summer 2023
+    
+    \hspace{10pt} Intermediate Microeconomic Theory  \hfill Spring 2023
+    
+\end{itemize}
+
+\section*{Industry Experience}
+
+\begin{itemize}
+
+    \item New York City Economic Development Corporation \hfill February 2020 - May 2020 \\
+    {\sl Intern -- Economic Research \& Policy} \hfill New York, NY
+
+    \item Commonwealth of Massachusetts \hfill June 2018 - August 2018 \\
+    {\sl Legislative Intern -- State Representative Linda Dean Campbell} \hfill Boston, MA
+
+    \item Brown Brothers Harriman \& Co. \hfill July 2017 - May 2018 \\
+    {\sl Operations Intermediate Specialist – Foreign Exchange Services} \hfill New York, NY
+
+    \item Brown Brothers Harriman \& Co. \hfill September 2016 - June 2017 \\
+    {\sl Operations Specialist – Reconciliations and Analysis} \hfill Boston, MA
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PROGRAMMING SECTION
+\section*{Programming}
+
+\begin{itemize}
+    \item \textit{Software:} \hspace{10pt} Stata, R
+    
+    \item \textit{Other:} \hspace{22pt} Git, LaTeX, Unix Command Line 
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\section*{REFERENCES}
+
+\begin{itemize}
+    \item Upon request
+\end{itemize}
+
+\bigskip
+
+\vfill 
+\begin{itemize}
+    \item \emph{Last updated {\today}.}
+\end{itemize}
+
+\end{document}
